@@ -44,6 +44,7 @@ nav {
   justify-content: space-around;
   position: sticky;
   top: 0px;
+  z-index: 1000;
 
   .nav__logo {
     @include flexCenter();
@@ -134,6 +135,9 @@ nav {
   }
   .projects__content {
     @include flexColCenter();
+  }
+  .card {
+    margin: 10px;
   }
 }
 //////////////////// End About /////////////////////
